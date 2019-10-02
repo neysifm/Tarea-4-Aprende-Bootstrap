@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AprendeBootstrap
+namespace AprendeBootstrap.Bootstrap_Ejemplos
 {
 
 
-    public partial class Contact
+    public partial class BootstrapImages
     {
     }
 }

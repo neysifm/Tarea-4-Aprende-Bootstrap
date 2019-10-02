@@ -106,7 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapAlerts.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapButtons.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapColors.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapGetStared.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapHome.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapImages.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapJumboTron.aspx" />
+    <Content Include="Bootstrap_Ejemplos\BootstrapTables.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -169,12 +176,61 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapAlerts.aspx.cs">
+      <DependentUpon>BootstrapAlerts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapAlerts.aspx.designer.cs">
+      <DependentUpon>BootstrapAlerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapButtons.aspx.cs">
+      <DependentUpon>BootstrapButtons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapButtons.aspx.designer.cs">
+      <DependentUpon>BootstrapButtons.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapColors.aspx.cs">
+      <DependentUpon>BootstrapColors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapColors.aspx.designer.cs">
+      <DependentUpon>BootstrapColors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapGetStared.aspx.cs">
+      <DependentUpon>BootstrapGetStared.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapGetStared.aspx.designer.cs">
+      <DependentUpon>BootstrapGetStared.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapHome.aspx.cs">
+      <DependentUpon>BootstrapHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapHome.aspx.designer.cs">
+      <DependentUpon>BootstrapHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapImages.aspx.cs">
+      <DependentUpon>BootstrapImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapImages.aspx.designer.cs">
+      <DependentUpon>BootstrapImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapJumboTron.aspx.cs">
+      <DependentUpon>BootstrapJumboTron.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapJumboTron.aspx.designer.cs">
+      <DependentUpon>BootstrapJumboTron.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapTables.aspx.cs">
+      <DependentUpon>BootstrapTables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bootstrap_Ejemplos\BootstrapTables.aspx.designer.cs">
+      <DependentUpon>BootstrapTables.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
